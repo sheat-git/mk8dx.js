@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Super Nintendo Entertainment System",
+    "nameJa": "スーパーファミコン",
+    "abbr": "SNES",
+    "abbrJa": "SFC"
+  },
+  {
+    "id": 1,
+    "name": "Nintendo 64",
+    "nameJa": "NINTENDO64",
+    "abbr": "N64",
+    "abbrJa": "N64"
+  },
+  {
+    "id": 2,
+    "name": "Game Boy Advance",
+    "nameJa": "ゲームボーイアドバンス",
+    "abbr": "GBA",
+    "abbrJa": "GBA"
+  },
+  {
+    "id": 3,
+    "name": "Nintendo GameCube",
+    "nameJa": "ニンテンドー ゲームキューブ",
+    "abbr": "GCN",
+    "abbrJa": "GC"
+  },
+  {
+    "id": 4,
+    "name": "Nintendo DS",
+    "nameJa": "ニンテンドーDS",
+    "abbr": "DS",
+    "abbrJa": "DS"
+  },
+  {
+    "id": 5,
+    "name": "Wii",
+    "nameJa": "Wii",
+    "abbr": "Wii",
+    "abbrJa": "Wii"
+  },
+  {
+    "id": 6,
+    "name": "Nintendo 3DS",
+    "nameJa": "ニンテンドー3DS",
+    "abbr": "3DS",
+    "abbrJa": "3DS"
+  },
+  {
+    "id": 7,
+    "name": "Mario Kart Tour",
+    "nameJa": "マリオカートツアー",
+    "abbr": "Tour",
+    "abbrJa": "Tour"
+  }
+]

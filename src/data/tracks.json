@@ -1,0 +1,693 @@
+[
+  {
+    "id": 0,
+    "name": "Mario Kart Stadium",
+    "nameJa": "マリオカートスタジアム",
+    "abbr": "MKS",
+    "abbrJa": "マリカス",
+    "nicks": ["mks", "ﾏﾘｵｶｰﾄｽﾀｼﾞｱﾑ", "ﾏﾘｶｽ"]
+  },
+  {
+    "id": 1,
+    "name": "Water Park",
+    "nameJa": "ウォーターパーク",
+    "abbr": "WP",
+    "abbrJa": "ウォタパ",
+    "nicks": ["wp", "ｳｫｰﾀﾊﾟｰｸ", "ｦｰﾀｰﾊﾟｰｸ", "ｳｫﾀﾊﾟ", "ｦﾀﾊﾟ", "ｵﾀﾊﾟ"]
+  },
+  {
+    "id": 2,
+    "name": "Sweet Sweet Canyon",
+    "nameJa": "スイーツキャニオン",
+    "abbr": "SSC",
+    "abbrJa": "スイキャニ",
+    "nicks": ["ssc", "ｽｲｰﾂｷｬﾆｵﾝ", "ｽｲｷｬﾆ"]
+  },
+  {
+    "id": 3,
+    "name": "Thwomp Ruins",
+    "nameJa": "ドッスンいせき",
+    "abbr": "TR",
+    "abbrJa": "ドッスン",
+    "nicks": ["tr", "ﾄﾞｯｽﾝｲｾｷ", "ﾄﾞｯｽﾝ", "ｲｾｷ"]
+  },
+  {
+    "id": 4,
+    "name": "Mario Circuit",
+    "nameJa": "マリオサーキット",
+    "abbr": "MC",
+    "abbrJa": "新マリサ",
+    "nicks": ["mc", "ﾏﾘｵｻｰｷｯﾄ", "ﾏﾘｻ", "ｼﾝﾏﾘｻ"]
+  },
+  {
+    "id": 5,
+    "name": "Toad Harbor",
+    "nameJa": "キノピオハーバー",
+    "abbr": "TH",
+    "abbrJa": "ハーバー",
+    "nicks": ["th", "ｷﾉﾋﾟｵﾊｰﾊﾞｰ", "ﾊｰﾊﾞｰ"]
+  },
+  {
+    "id": 6,
+    "name": "Twisted Mansion",
+    "nameJa": "ねじれマンション",
+    "abbr": "TM",
+    "abbrJa": "ねじマン",
+    "nicks": ["tm", "ﾈｼﾞﾚﾏﾝｼｮﾝ", "ﾈｼﾞﾏﾝ", "ﾈｼﾞﾚ", "ﾈｼﾞｼｮﾝ", "ﾈｼﾞ", "ﾈｼﾞﾈｼﾞ", "ﾏﾝｼｮﾝ"]
+  },
+  {
+    "id": 7,
+    "name": "Shy Guy Falls",
+    "nameJa": "ヘイホーこうざん",
+    "abbr": "SGF",
+    "abbrJa": "ヘイこう",
+    "nicks": ["sgf", "ﾍｲﾎｰｺｳｻﾞﾝ", "ﾍｲﾎｰｺｳ山", "ﾍｲｺｰ", "ﾍｲｺｳ"]
+  },
+  {
+    "id": 8,
+    "name": "Sunshine Airport",
+    "nameJa": "サンシャインくうこう",
+    "abbr": "SA",
+    "abbrJa": "くうこう",
+    "nicks": ["sa", "ｻﾝｼｬｲﾝｸｳｺｳ", "ｸｳｺｳ", "ｻﾝｼｬｲﾝ"]
+  },
+  {
+    "id": 9,
+    "name": "Dolphin Shoals",
+    "nameJa": "ドルフィンみさき",
+    "abbr": "DS",
+    "abbrJa": "ドルみ",
+    "nicks": ["ds", "ﾄﾞﾙﾌｨﾝﾐｻｷ", "ﾄﾞﾙﾐ", "ﾐｻｷ"]
+  },
+  {
+    "id": 10,
+    "name": "Electrodrome",
+    "nameJa": "エレクトロドリーム",
+    "abbr": "Ed",
+    "abbrJa": "エレド",
+    "nicks": ["ed", "ｴﾚｸﾄﾛﾄﾞﾘｰﾑ", "ｴﾚﾄﾞ", "ｴﾚﾄﾞﾘ"]
+  },
+  {
+    "id": 11,
+    "name": "Mount Wario",
+    "nameJa": "ワリオスノーマウンテン",
+    "abbr": "MW",
+    "abbrJa": "ワリスノ",
+    "nicks": ["mw", "ﾜﾘｵｽﾉｰﾏｳﾝﾃﾝ", "ﾜﾘｽﾉ", "ﾕｷﾔﾏ", "ﾕｷ山", "ｽﾉ", "ﾕｷﾔﾏｳﾝﾃﾝ"]
+  },
+  {
+    "id": 12,
+    "name": "Cloudtop Cruise",
+    "nameJa": "スカイガーデン",
+    "abbr": "CC",
+    "abbrJa": "スカガ",
+    "nicks": ["cc", "ｽｶｲｶﾞｰﾃﾞﾝ", "ｽｶｶﾞ"]
+  },
+  {
+    "id": 13,
+    "name": "Bone-Dry Dunes",
+    "nameJa": "ホネホネさばく",
+    "abbr": "BDD",
+    "abbrJa": "ホネさば",
+    "nicks": ["bdd", "ﾎﾈﾎﾈｻﾊﾞｸ", "ﾎﾈｻﾊﾞ", "ﾎﾈﾎﾈ"]
+  },
+  {
+    "id": 14,
+    "name": "Bowser's Castle",
+    "nameJa": "クッパキャッスル",
+    "abbr": "BC",
+    "abbrJa": "クパキャ",
+    "nicks": ["bc", "ｸｯﾊﾟｷｬｯｽﾙ", "ｸﾊﾟｷｬ", "ｸｷｬﾊﾟ", "ｸｯｷｬﾊﾟｯｽﾙ"]
+  },
+  {
+    "id": 15,
+    "name": "Rainbow Road",
+    "nameJa": "レインボーロード",
+    "abbr": "RR",
+    "abbrJa": "新虹",
+    "nicks": ["rr", "ﾚｲﾝﾎﾞｰﾛｰﾄﾞ", "ｼﾝﾆｼﾞ"]
+  },
+  {
+    "id": 16,
+    "name": "Yoshi Circuit",
+    "nameJa": "ヨッシーサーキット",
+    "abbr": "dYC",
+    "abbrJa": "ヨシサ",
+    "nicks": ["dyc", "yc", "ﾖｯｼｰｻｰｷｯﾄ", "ﾖｼｻ"],
+    "consoleId": 3
+  },
+  {
+    "id": 17,
+    "name": "Excitebike Arena",
+    "nameJa": "エキサイトバイク",
+    "abbr": "dEA",
+    "abbrJa": "エキバ",
+    "nicks": ["dea", "ea", "ｴｷｻｲﾄﾊﾞｲｸ", "ｴｷﾊﾞ"]
+  },
+  {
+    "id": 18,
+    "name": "Dragon Driftway",
+    "nameJa": "ドラゴンロード",
+    "abbr": "dDD",
+    "abbrJa": "ドラロ",
+    "nicks": ["ddd", "dd", "ﾄﾞﾗｺﾞﾝﾛｰﾄﾞ", "ﾄﾞﾗﾛ"]
+  },
+  {
+    "id": 19,
+    "name": "Mute City",
+    "nameJa": "ミュートシティ",
+    "abbr": "dMC",
+    "abbrJa": "ミュート",
+    "nicks": ["dmc", "ﾐｭｰﾄｼﾃｨ", "ﾐｭｰﾄ"]
+  },
+  {
+    "id": 20,
+    "name": "Baby Park",
+    "nameJa": "ベビィパーク",
+    "abbr": "dBP",
+    "abbrJa": "ベビパ",
+    "nicks": ["dbp", "bp", "ﾍﾞﾋﾞｨﾊﾟｰｸ", "ﾍﾞﾋﾞｰﾊﾟｰｸ", "ﾍﾞﾋﾞﾊﾟ"],
+    "consoleId": 3
+  },
+  {
+    "id": 21,
+    "name": "Cheese Land",
+    "nameJa": "チーズランド",
+    "abbr": "dCL",
+    "abbrJa": "チーズ",
+    "nicks": ["dcl", "cl", "ﾁｰｽﾞﾗﾝﾄﾞ", "ﾁｰｽﾞ"],
+    "consoleId": 2
+  },
+  {
+    "id": 22,
+    "name": "Wild Woods",
+    "nameJa": "ネイチャーロード",
+    "abbr": "dWW",
+    "abbrJa": "ネイチャー",
+    "nicks": ["dww", "ww", "ﾈｲﾁｬｰﾗﾝﾄﾞ", "ﾈｲﾁｬｰ", "ﾅﾁｭﾚ"]
+  },
+  {
+    "id": 23,
+    "name": "Animal Crossing",
+    "nameJa": "どうぶつの森",
+    "abbr": "dAC",
+    "abbrJa": "どう森",
+    "nicks": ["dac", "ac", "ﾄﾞｳﾌﾞﾂﾉﾓﾘ", "ﾄﾞｳﾓﾘ", "ﾌﾞﾂﾓﾘ"]
+  },
+  {
+    "id": 24,
+    "name": "Moo Moo Meadows",
+    "nameJa": "モーモーカントリー",
+    "abbr": "rMMM",
+    "abbrJa": "モモカン",
+    "nicks": ["rmmm", "mmm", "ﾓｰﾓｰｶﾝﾄﾘｰ", "ﾓﾓｶﾝ", "ﾓｰﾓｰ"],
+    "consoleId": 5
+  },
+  {
+    "id": 25,
+    "name": "Mario Circuit",
+    "nameJa": "マリオサーキット",
+    "abbr": "rMC",
+    "abbrJa": "GBAマリサ",
+    "nicks": ["rmc", "gba", "ｸﾞﾊﾞ", "gbaﾏﾘｵｻｰｷｯﾄ", "gbaﾏﾘｻ"],
+    "consoleId": 2
+  },
+  {
+    "id": 26,
+    "name": "Cheep Cheep Beach",
+    "nameJa": "プクプクビーチ",
+    "abbr": "rCCB",
+    "abbrJa": "プクビ",
+    "nicks": ["rccb", "ccb", "ﾌﾟｸﾌﾟｸﾋﾞｰﾁ", "ﾌﾟｸﾌﾟｸ", "ﾌﾟｸﾋﾞ"],
+    "consoleId": 4
+  },
+  {
+    "id": 27,
+    "name": "Toad's Turnpike",
+    "nameJa": "キノピオハイウェイ",
+    "abbr": "rTT",
+    "abbrJa": "ハイウェイ",
+    "nicks": ["rtt", "tt", "ｷﾉﾋﾟｵﾊｲｳｪｲ", "ﾊｲｳｪｲ"],
+    "consoleId": 1
+  },
+  {
+    "id": 28,
+    "name": "Dry Dry Desert",
+    "nameJa": "カラカラさばく",
+    "abbr": "rDDD",
+    "abbrJa": "GCカラさば",
+    "nicks": ["rddd", "ｶﾗｶﾗｻﾊﾞｸ", "ｶﾗｻﾊﾞ", "ｻﾊﾞｸ", "gcｶﾗ", "gcｶﾗｻﾊﾞ", "gcｻﾊﾞ"],
+    "consoleId": 3
+  },
+  {
+    "id": 29,
+    "name": "Donut Plains 3",
+    "nameJa": "ドーナツへいや3",
+    "abbr": "rDP3",
+    "abbrJa": "へいや",
+    "nicks": ["rdp3", "rdp", "dp3", "ﾄﾞｰﾅﾂﾍｲﾔ", "ﾍｲﾔ"],
+    "consoleId": 0
+  },
+  {
+    "id": 30,
+    "name": "Royal Raceway",
+    "nameJa": "ピーチサーキット",
+    "abbr": "rRRy",
+    "abbrJa": "ピチサ",
+    "nicks": ["rrry", "rry", "ﾋﾟｰﾁｻｰｷｯﾄ", "ﾋﾟﾁｻ"],
+    "consoleId": 1
+  },
+  {
+    "id": 31,
+    "name": "DK Jungle",
+    "nameJa": "DKジャングル",
+    "abbr": "rDKJ",
+    "abbrJa": "ジャングル",
+    "nicks": ["rdkj", "dk", "dkj", "dkｼﾞｬﾝｸﾞﾙ", "ｼﾞｬﾝｸﾞﾙ"],
+    "consoleId": 6
+  },
+  {
+    "id": 32,
+    "name": "Wario Stadium",
+    "nameJa": "ワリオスタジアム",
+    "abbr": "rWS",
+    "abbrJa": "ワリスタ",
+    "nicks": ["rws", "ws", "ﾜﾘｵｽﾀｼﾞｱﾑ", "ﾜﾘｽﾀ"],
+    "consoleId": 4
+  },
+  {
+    "id": 33,
+    "name": "Sherbet Land",
+    "nameJa": "シャーベットランド",
+    "abbr": "rSL",
+    "abbrJa": "シャベラン",
+    "nicks": ["rsl", "sl", "ｼｬｰﾍﾞｯﾄﾗﾝﾄﾞ", "ｼｬｰﾍﾞｯﾄ", "ｼｬﾍﾞﾗﾝ", "ｼｬﾍﾞ"],
+    "consoleId": 3
+  },
+  {
+    "id": 34,
+    "name": "Music Park",
+    "nameJa": "ミュージックパーク",
+    "abbr": "rMP",
+    "abbrJa": "ミューパ",
+    "nicks": ["rmp", "mp", "ﾐｭｰｼﾞｯｸﾊﾟｰｸ", "ﾐｭｰﾊﾟ"],
+    "consoleId": 6
+  },
+  {
+    "id": 35,
+    "name": "Yoshi Valley",
+    "nameJa": "ヨッシーバレー",
+    "abbr": "rYV",
+    "abbrJa": "ヨシバ",
+    "nicks": ["ryv", "yv", "ﾖｯｼｰﾊﾞﾚｰ", "ﾖｼﾊﾞ"],
+    "consoleId": 1
+  },
+  {
+    "id": 36,
+    "name": "Tick-Tock Clock",
+    "nameJa": "チクタクロック",
+    "abbr": "rTTC",
+    "abbrJa": "チクタク",
+    "nicks": ["rttc", "ttc", "ﾁｸﾀｸﾛｯｸ", "ﾁｸﾀｸ"],
+    "consoleId": 4
+  },
+  {
+    "id": 37,
+    "name": "Piranha Planet Slide",
+    "nameJa": "パックンスライダー",
+    "abbr": "rPPS",
+    "abbrJa": "パクスラ",
+    "nicks": ["rpps", "pps", "ﾊﾟｯｸﾝｽﾗｲﾀﾞｰ", "ﾊﾟｸｽﾗ", "ﾊﾟｯｸﾝ"],
+    "consoleId": 6
+  },
+  {
+    "id": 38,
+    "name": "Grumble Volcano",
+    "nameJa": "グラグラかざん",
+    "abbr": "rGV",
+    "abbrJa": "かざん",
+    "nicks": ["rgv", "gv", "ｸﾞﾗｸﾞﾗｶｻﾞﾝ", "ｸﾞﾗｸﾞﾗ", "ｶｻﾞﾝ"],
+    "consoleId": 5
+  },
+  {
+    "id": 39,
+    "name": "Rainbow Road",
+    "nameJa": "レインボーロード",
+    "abbr": "rRRd",
+    "abbrJa": "64虹",
+    "nicks": ["rrrd", "rrd", "64ﾚｲﾝﾎﾞｰﾛｰﾄﾞ", "64ﾆｼﾞ", "ﾛｸﾖﾝ"],
+    "consoleId": 1
+  },
+  {
+    "id": 40,
+    "name": "Wario's Gold Mine",
+    "nameJa": "ワリオこうざん",
+    "abbr": "dWGM",
+    "abbrJa": "ワリこう",
+    "nicks": ["dwgm", "wgm", "ﾜﾘｵｺｳｻﾞﾝ", "ﾜﾘｺｳ", "ﾜﾘｵｺｳ山"],
+    "consoleId": 5
+  },
+  {
+    "id": 41,
+    "name": "Rainbow Road",
+    "nameJa": "レインボーロード",
+    "abbr": "dRR",
+    "abbrJa": "SFC虹",
+    "nicks": ["drr", "sfcﾆｼﾞ", "sfcﾚｲﾝﾎﾞｰﾛｰﾄﾞ", "sfc"],
+    "consoleId": 0
+  },
+  {
+    "id": 42,
+    "name": "Ice Ice Outpost",
+    "nameJa": "ツルツルツイスター",
+    "abbr": "dIIO",
+    "abbrJa": "ツルツル",
+    "nicks": ["diio", "iio", "ﾂﾙﾂﾙﾂｲｽﾀｰ", "ﾂﾂﾂ", "ﾂﾙﾂﾙ"]
+  },
+  {
+    "id": 43,
+    "name": "Hyrule Circuit",
+    "nameJa": "ハイラルサーキット",
+    "abbr": "dHC",
+    "abbrJa": "ハイラル",
+    "nicks": ["dhc", "hc", "ﾊｲﾗﾙｻｰｷｯﾄ", "ﾊｲﾗﾙ"]
+  },
+  {
+    "id": 44,
+    "name": "Neo Bowser City",
+    "nameJa": "ネオクッパシティ",
+    "abbr": "dNBC",
+    "abbrJa": "ネオパ",
+    "nicks": ["dnbc", "nbc", "ﾈｵｸｯﾊﾟｼﾃｨ", "ﾈｵﾊﾟ", "ﾈｵｸｯﾊﾟ"],
+    "consoleId": 6
+  },
+  {
+    "id": 45,
+    "name": "Ribbon Road",
+    "nameJa": "リボンロード",
+    "abbr": "dRiR",
+    "abbrJa": "リボン",
+    "nicks": ["drir", "rir", "ﾘﾎﾞﾝﾛｰﾄﾞ", "ﾘﾎﾞﾝ"],
+    "consoleId": 2
+  },
+  {
+    "id": 46,
+    "name": "Super Bell Subway",
+    "nameJa": "リンリンメトロ",
+    "abbr": "dSBS",
+    "abbrJa": "リンメト",
+    "nicks": ["dsbs", "sbs", "ﾘﾝﾘﾝﾒﾄﾛ", "ﾘﾝﾒﾄ"]
+  },
+  {
+    "id": 47,
+    "name": "Big Blue",
+    "nameJa": "ビッグブルー",
+    "abbr": "dBB",
+    "abbrJa": "ビッグブルー",
+    "nicks": ["dbb", "bb", "ﾋﾞｯｸﾞﾌﾞﾙｰ"]
+  },
+  {
+    "id": 48,
+    "name": "Paris Promenade",
+    "nameJa": "パリプロムナード",
+    "abbr": "bPP",
+    "abbrJa": "パリ",
+    "nicks": ["bpp", "pp", "paris", "ﾊﾟﾘﾌﾟﾛﾑﾅｰﾄﾞ", "ﾊﾟﾘ"],
+    "consoleId": 7
+  },
+  {
+    "id": 49,
+    "name": "Toad Circuit",
+    "nameJa": "キノピオサーキット",
+    "abbr": "bTC",
+    "abbrJa": "キノサ",
+    "nicks": ["btc", "tc", "ｷﾉﾋﾟｵｻｰｷｯﾄ", "ｷﾉｻ"],
+    "consoleId": 6
+  },
+  {
+    "id": 50,
+    "name": "Choco Mountain",
+    "nameJa": "チョコマウンテン",
+    "abbr": "bCMo",
+    "abbrJa": "チョコ",
+    "nicks": ["bcmo", "bcm64", "bchm", "cmo", "chm", "cm64", "ﾁｮｺﾏｳﾝﾃﾝ", "ﾁｮｺ", "ﾁｮｺﾏ"],
+    "consoleId": 1
+  },
+  {
+    "id": 51,
+    "name": "Coconut Mall",
+    "nameJa": "ココナッツモール",
+    "abbr": "bCMa",
+    "abbrJa": "ココモ",
+    "nicks": ["bcma", "bcom", "bcmw", "cma", "com", "cmw", "ｺｺﾅｯﾂﾓｰﾙ", "ｺｺﾓ", "ｺｺﾅｯﾂ", "ﾅｯﾂ"],
+    "consoleId": 5
+  },
+  {
+    "id": 52,
+    "name": "Tokyo Blur",
+    "nameJa": "トーキョースクランブル",
+    "abbr": "bTB",
+    "abbrJa": "トーキョー",
+    "nicks": ["btb", "tb", "tokyo", "ﾄｰｷｮｰｽｸﾗﾝﾌﾞﾙ", "ｽｸﾗﾝﾌﾞﾙ", "ﾄｰｷｮｰ", "ﾄｳｷｮｳ", "ﾄｰｷｮｳ", "ﾄｳｷｮｰ"],
+    "consoleId": 7
+  },
+  {
+    "id": 53,
+    "name": "Shroom Ridge",
+    "nameJa": "キノコリッジウェイ",
+    "abbr": "bSR",
+    "abbrJa": "リッジ",
+    "nicks": ["bsr", "sr", "ｷﾉｺﾘｯｼﾞｳｪｲ", "ｷﾉｺﾘｯｼﾞ", "ﾘｯｼﾞｳｪｲ", "ｷﾉｺﾘ", "ｷｺﾘ", "ﾘｯｼﾞ"],
+    "consoleId": 4
+  },
+  {
+    "id": 54,
+    "name": "Sky Garden",
+    "nameJa": "スカイガーデン",
+    "abbr": "bSG",
+    "abbrJa": "GBAスカガ",
+    "nicks": ["bsg", "sg", "gbaｽｶｲｶﾞｰﾃﾞﾝ", "gbaｽｶ", "ｸﾞﾊﾞｽｶ", "ｸﾞﾊﾞｽｶｶﾞ", "gbaｽｶｶﾞ"],
+    "consoleId": 2
+  },
+  {
+    "id": 55,
+    "name": "Ninja Hideaway",
+    "nameJa": "ニンニンドージョー",
+    "abbr": "bNH",
+    "abbrJa": "ニンニン",
+    "nicks": ["bnh", "nh", "ﾆﾝﾆﾝﾄﾞｰｼﾞｮｰ", "ﾆﾝｼﾞｮｰ", "ﾆﾝﾆﾝ"]
+  },
+  {
+    "id": 56,
+    "name": "New York Minute",
+    "nameJa": "ニューヨークドリーム",
+    "abbr": "bNYM",
+    "abbrJa": "ニューヨーク",
+    "nicks": ["bnym", "nym", "ﾆｭｰﾖｰｸﾄﾞﾘｰﾑ", "ﾆｭｰﾖｰｸ", "ﾆｭｰﾄﾞﾘ", "ny"],
+    "consoleId": 7
+  },
+  {
+    "id": 57,
+    "name": "Mario Circuit 3",
+    "nameJa": "マリオサーキット3",
+    "abbr": "bMC3",
+    "abbrJa": "SFCマリサ",
+    "nicks": ["bmc3", "mc3", "ﾏﾘｵｻｰｷｯﾄ3", "ﾏﾘｻ3", "sfcﾏﾘｻ", "sfcﾏﾘｵｻｰｷｯﾄ", "sfcﾏﾘｻ3", "sfcﾏﾘｵｻｰｷｯﾄ3"],
+    "consoleId": 0
+  },
+  {
+    "id": 58,
+    "name": "Kalimari Desert",
+    "nameJa": "カラカラさばく",
+    "abbr": "bKD",
+    "abbrJa": "64カラさば",
+    "nicks": ["bkd", "kd", "64ｶﾗｻﾊﾞ", "64ｶﾗ", "64ｻﾊﾞ"],
+    "consoleId": 1
+  },
+  {
+    "id": 59,
+    "name": "Waluigi Pinball",
+    "nameJa": "ワルイージピンボール",
+    "abbr": "bWP",
+    "abbrJa": "ワルピン",
+    "nicks": ["bwp", "ﾜﾙｲｰｼﾞﾋﾟﾝﾎﾞｰﾙ", "ﾜﾙﾋﾟﾝ", "ﾋﾟﾝﾎﾞｰﾙ"],
+    "consoleId": 4
+  },
+  {
+    "id": 60,
+    "name": "Sydney Sprint",
+    "nameJa": "シドニーサンシャイン",
+    "abbr": "bSS",
+    "abbrJa": "シドニー",
+    "nicks": ["bss", "ss", "bsys", "sys", "ｼﾄﾞﾆｰｻﾝｼｬｲﾝ", "ｼﾄﾞﾆｰ"],
+    "consoleId": 7
+  },
+  {
+    "id": 61,
+    "name": "Snow Land",
+    "nameJa": "スノーランド",
+    "abbr": "bSL",
+    "abbrJa": "スノラン",
+    "nicks": ["bsl", "ｽﾉｰﾗﾝﾄﾞ", "ｽﾉﾗﾝ"],
+    "consoleId": 2
+  },
+  {
+    "id": 62,
+    "name": "Mushroom Gorge",
+    "nameJa": "キノコキャニオン",
+    "abbr": "bMG",
+    "abbrJa": "キノキャニ",
+    "nicks": ["bmg", "mg", "ｷﾉｺｷｬﾆｵﾝ", "ｷﾉｷｬﾆ", "ｷｬﾆｵﾝ"],
+    "consoleId": 5
+  },
+  {
+    "id": 63,
+    "name": "Sky-High Sundae",
+    "nameJa": "アイスビルディング",
+    "abbr": "bSHS",
+    "abbrJa": "アイス",
+    "nicks": ["bshs", "shs", "ｱｲｽﾋﾞﾙﾃﾞｨﾝｸﾞ", "ｱｲｽ"]
+  },
+  {
+    "id": 64,
+    "name": "London Loop",
+    "nameJa": "ロンドンアベニュー",
+    "abbr": "bLL",
+    "abbrJa": "ロンドン",
+    "nicks": ["bll", "ll", "ﾛﾝﾄﾞﾝｱﾍﾞﾆｭｰ", "ﾛﾝﾄﾞﾝ"],
+    "consoleId": 7
+  },
+  {
+    "id": 65,
+    "name": "Boo Lake",
+    "nameJa": "テレサレイク",
+    "abbr": "bBL",
+    "abbrJa": "レイク",
+    "nicks": ["bbl", "bl", "ﾃﾚｻﾚｲｸ", "ﾚｲｸ", "ﾃﾚｲｸ", "ﾃﾚﾚ"],
+    "consoleId": 2
+  },
+  {
+    "id": 66,
+    "name": "Rock Rock Mountain",
+    "nameJa": "ロックロックマウンテン",
+    "abbr": "bRRM",
+    "abbrJa": "ロクマ",
+    "nicks": ["brrm", "rrm", "ﾛｯｸﾛｯｸﾏｳﾝﾃﾝ", "ﾛｸﾏ", "ﾛｯｸ", "ｲﾜﾔﾏ", "ｲﾜ山", "ﾛｯｸﾛｯｸ"],
+    "consoleId": 6
+  },
+  {
+    "id": 67,
+    "name": "Maple Treeway",
+    "nameJa": "メイプルツリーハウス",
+    "abbr": "bMT",
+    "abbrJa": "メイプル",
+    "nicks": ["bmt", "mt", "ﾒｲﾌﾟﾙﾂﾘｰﾊｳｽ", "ﾒｲﾌﾟﾙ"],
+    "consoleId": 5
+  },
+  {
+    "id": 68,
+    "name": "Berlin Byways",
+    "nameJa": "ベルリンシュトラーセ",
+    "abbr": "bBB",
+    "abbrJa": "ベルリン",
+    "nicks": ["bbb", "ﾍﾞﾙﾘﾝｼｭﾄﾗｰｾ", "ﾍﾞﾙﾘﾝ"],
+    "consoleId": 7
+  },
+  {
+    "id": 69,
+    "name": "Peach Gardens",
+    "nameJa": "ピーチガーデン",
+    "abbr": "bPG",
+    "abbrJa": "ピチガ",
+    "nicks": ["bpg", "pg", "ﾋﾟｰﾁｶﾞｰﾃﾞﾝ", "ﾋﾟﾁｶﾞ", "ｶﾞｰﾃﾞﾝ"],
+    "consoleId": 4
+  },
+  {
+    "id": 70,
+    "name": "Merry Mountain",
+    "nameJa": "メリーメリーマウンテン",
+    "abbr": "bMM",
+    "abbrJa": "メリマ",
+    "nicks": ["bmm", "mm", "ﾒﾘｰﾒﾘｰﾏｳﾝﾃﾝ", "ﾒﾘﾏ", "ﾒﾘｰﾒﾘｰ", "ﾒﾘｰ", "ﾒﾘﾔﾏ", "ﾒﾘ山"]
+  },
+  {
+    "id": 71,
+    "name": "Rainbow Road",
+    "nameJa": "レインボーロード",
+    "abbr": "bRR",
+    "abbrJa": "3DS虹",
+    "nicks": ["brr", "3dsﾆｼﾞ", "3ds", "7ﾆｼﾞ", "ｾﾌﾞﾝﾆｼﾞ"],
+    "consoleId": 6
+  },
+  {
+    "id": 72,
+    "name": "Amsterdam Drift",
+    "nameJa": "アムステルダムブルーム",
+    "abbr": "bAD",
+    "abbrJa": "アムステルダム",
+    "nicks": ["bad", "ad", "amsterdam", "ｱﾑｽﾃﾙﾀﾞﾑﾌﾞﾙｰﾑ", "ｱﾑｽﾃﾙﾀﾞﾑ", "ｱﾑｽ", "ﾌﾞﾙｰﾑ"],
+    "consoleId": 7
+  },
+  {
+    "id": 73,
+    "name": "Riverside Park",
+    "nameJa": "リバーサイドパーク",
+    "abbr": "bRP",
+    "abbrJa": "リバパ",
+    "nicks": ["brp", "rp", "ﾘﾊﾞｰｻｲﾄﾞﾊﾟｰｸ", "ﾘﾊﾞｰｻｲﾄﾞ", "ﾘﾊﾞﾊﾟ", "ﾘﾊﾞｻｲ"],
+    "consoleId": 2
+  },
+  {
+    "id": 74,
+    "name": "DK Summit",
+    "nameJa": "DKスノーボードクロス",
+    "abbr": "bDKS",
+    "abbrJa": "スノボ",
+    "nicks": ["bdks", "dks", "summit", "dkｽﾉｰﾎﾞｰﾄﾞｸﾛｽ", "ｽﾉｰﾎﾞｰﾄﾞｸﾛｽ", "ｽﾉﾎﾞｸﾛｽ", "ｽﾉﾎﾞ"],
+    "consoleId": 5
+  },
+  {
+    "id": 75,
+    "name": "Yoshi\"s Island",
+    "nameJa": "ヨッシーアイランド",
+    "abbr": "bYI",
+    "abbrJa": "ヨシアイ",
+    "nicks": ["byi", "yi", "ﾖｯｼｰｱｲﾗﾝﾄﾞ", "ﾖｼｱｲ"]
+  },
+  {
+    "id": 76,
+    "name": "Bangkok Rush",
+    "nameJa": "バンコクラッシュ",
+    "abbr": "bBR",
+    "abbrJa": "バンコク",
+    "nicks": ["bbr", "br", "bangkok", "ﾊﾞﾝｺｸﾗｯｼｭ", "ﾊﾞﾝｺｸ"],
+    "consoleId": 7
+  },
+  {
+    "id": 77,
+    "name": "Mario Circuit",
+    "nameJa": "マリオサーキット",
+    "abbr": "bMC",
+    "abbrJa": "DSマリサ",
+    "nicks": ["bmc", "dsﾏﾘｵｻｰｷｯﾄ", "dsﾏﾘｻ"],
+    "consoleId": 4
+  },
+  {
+    "id": 78,
+    "name": "Waluigi Stadium",
+    "nameJa": "ワルイージスタジアム",
+    "abbr": "bWS",
+    "abbrJa": "ワルスタ",
+    "nicks": ["bws", "ﾜﾙｲｰｼﾞｽﾀｼﾞｱﾑ", "ﾜﾙｽﾀ"],
+    "consoleId": 3
+  },
+  {
+    "id": 79,
+    "name": "Singapore Speedway",
+    "nameJa": "シンガポールスプラッシュ",
+    "abbr": "bSSy",
+    "abbrJa": "シンガポール",
+    "nicks": ["bssy", "ssy", "bsis", "sis", "singapore", "ｼﾝｶﾞﾎﾟｰﾙｽﾌﾟﾗｯｼｭ", "ｼﾝｶﾞﾎﾟｰﾙ"],
+    "consoleId": 7
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "name": "Mushroom",
+    "nameJa": "キノコ"
+  },
+  {
+    "id": 1,
+    "name": "Flower",
+    "nameJa": "フラワー"
+  },
+  {
+    "id": 2,
+    "name": "Star",
+    "nameJa": "スター"
+  },
+  {
+    "id": 3,
+    "name": "Special",
+    "nameJa": "スペシャル"
+  },
+  {
+    "id": 4,
+    "name": "Egg",
+    "nameJa": "たまご"
+  },
+  {
+    "id": 5,
+    "name": "Crossing",
+    "nameJa": "どうぶつ"
+  },
+  {
+    "id": 6,
+    "name": "Shell",
+    "nameJa": "こうら"
+  },
+  {
+    "id": 7,
+    "name": "Banana",
+    "nameJa": "バナナ"
+  },
+  {
+    "id": 8,
+    "name": "Leaf",
+    "nameJa": "このは"
+  },
+  {
+    "id": 9,
+    "name": "Lightning",
+    "nameJa": "サンダー"
+  },
+  {
+    "id": 10,
+    "name": "Triforce",
+    "nameJa": "ゼルダ"
+  },
+  {
+    "id": 11,
+    "name": "Bell",
+    "nameJa": "ベル"
+  },
+  {
+    "id": 12,
+    "name": "Golden Dash",
+    "nameJa": "パワフル"
+  },
+  {
+    "id": 13,
+    "name": "Lucky Cat",
+    "nameJa": "まねきネコ"
+  },
+  {
+    "id": 14,
+    "name": "Turnip",
+    "nameJa": "カブ"
+  },
+  {
+    "id": 15,
+    "name": "Propeller",
+    "nameJa": "プロペラ"
+  },
+  {
+    "id": 16,
+    "name": "Rock",
+    "nameJa": "ゴロいわ"
+  },
+  {
+    "id": 17,
+    "name": "Moon",
+    "nameJa": "ムーン"
+  },
+  {
+    "id": 18,
+    "name": "Fruit",
+    "nameJa": "フルーツ"
+  },
+  {
+    "id": 19,
+    "name": "Boomerang",
+    "nameJa": "ブーメラン"
+  },
+  {
+    "id": 20,
+    "name": "Feather",
+    "nameJa": "ハネ"
+  },
+  {
+    "id": 21,
+    "name": "Cherry",
+    "nameJa": "チェリー"
+  },
+  {
+    "id": 22,
+    "name": "Acorn",
+    "nameJa": "ドングリ"
+  },
+  {
+    "id": 23,
+    "name": "Spiny",
+    "nameJa": "トゲゾー"
+  }
+]
