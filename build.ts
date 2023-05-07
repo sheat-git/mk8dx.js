@@ -28,7 +28,8 @@ await build({
     async postBuild() {
         await Promise.all([
             Deno.copyFile('README.md', 'dist/README.md'),
-            Deno.copyFile('LICENSE', 'dist/LICENSE')
+            Deno.copyFile('LICENSE', 'dist/LICENSE'),
+            Deno.copyFile('stats.png', 'dist/stats.png')
         ])
     }
 })
