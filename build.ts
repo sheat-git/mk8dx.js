@@ -1,10 +1,49 @@
-import { build, emptyDir } from 'https://deno.land/x/dnt@0.34.0/mod.ts'
+import { build, emptyDir } from 'https://deno.land/x/dnt@0.35.0/mod.ts'
 
 await emptyDir('dist')
 
 await build({
-    entryPoints: [
-        'src/mod.ts',
+    entryPoints: ['src/mod.ts',
+        {
+            name: './data',
+            path: 'src/data/mod.ts'
+        },
+        {
+            name: './lounge',
+            path: 'src/lounge/mod.ts'
+        },
+        {
+            name: './lounge/types',
+            path: 'src/lounge/types/mod.ts'
+        },
+        {
+            name: './lounge/api',
+            path: 'src/lounge/api.ts'
+        },
+        {
+            name: './lounge/error',
+            path: 'src/lounge/error.ts'
+        },
+        {
+            name: './lounge/util',
+            path: 'src/lounge/util.ts'
+        },
+        {
+            name: './lounge/chart',
+            path: 'src/lounge/chart/mod.ts'
+        },
+        {
+            name: './util',
+            path: 'src/util/mod.ts'
+        },
+        {
+            name: './util/text',
+            path: 'src/util/text.ts'
+        },
+        {
+            name: './util/track',
+            path: 'src/util/track.ts'
+        }
     ],
     outDir: 'dist',
     shims: {
