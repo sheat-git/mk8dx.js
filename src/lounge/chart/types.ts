@@ -58,17 +58,17 @@ export class DivisionForChart {
     })
 }
 
-export type Rank = {
+export type RankForChart = {
     division: DivisionForChart
     borderMmr?: number
     minMmr: number
 }
 
 export class Season {
-    readonly ranks: Rank[]
+    readonly ranks: RankForChart[]
 
     private constructor(options: {
-        ranks: Rank[]
+        ranks: RankForChart[]
     }) {
         this.ranks = options.ranks
     }
