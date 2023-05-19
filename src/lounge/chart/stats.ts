@@ -1,15 +1,16 @@
 import { ChartConfiguration } from 'npm:chart.js'
-import { checkerBackground, vDivisionColor } from './plugins.ts'
+import { checkerBackgroundPlugin, vDivisionColorPlugin } from './plugins.ts'
 import { MmrChange } from '../types/PlayerDetails.ts'
 
-export type StatsOptions = {
+export type LoungeChartStatsOptions = {
     season: number
     data: {
         mmrs: number[]
     }[]
+    setBackground?: boolean
 }
 
-export const createStatsData = (mmrChanges: MmrChange[]): StatsOptions['data'] => {
+export const createLoungeChartStatsData = (mmrChanges: MmrChange[]): LoungeChartStatsOptions['data'] => {
     if (mmrChanges.length === 0) return []
     const tableDeleteIds = new Set(mmrChanges.filter(mmrChange => mmrChange.reason === 'TableDelete').map(mmrChange => mmrChange.changeId))
     const baseMmr = mmrChanges[0].newMmr - mmrChanges[0].mmrDelta
@@ -26,7 +27,7 @@ export const createStatsData = (mmrChanges: MmrChange[]): StatsOptions['data'] =
     return data
 }
 
-export const createStatsConfig = (options: StatsOptions): ChartConfiguration => {
+export const createLoungeChartStatsConfig = (options: LoungeChartStatsOptions): ChartConfiguration => {
     return {
         type: 'scatter',
         data: {
@@ -80,8 +81,8 @@ export const createStatsConfig = (options: StatsOptions): ChartConfiguration => 
             }
         },
         plugins: [
-            checkerBackground,
-            vDivisionColor
+            checkerBackgroundPlugin,
+            vDivisionColorPlugin
         ]
     }
 }

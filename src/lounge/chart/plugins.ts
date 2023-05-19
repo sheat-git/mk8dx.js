@@ -2,7 +2,7 @@ import { Plugin } from 'npm:chart.js'
 import { createCanvas } from 'npm:canvas'
 import { Season } from './types.ts'
 
-export const vDivisionColor: Plugin = {
+export const vDivisionColorPlugin: Plugin = {
     id: 'vDivisionColor',
     beforeDraw: (chart, _, options) => {
         const { ctx } = chart
@@ -36,7 +36,7 @@ export const vDivisionColor: Plugin = {
     }
 }
 
-export const hDivisionColor: Plugin = {
+export const hDivisionColorPlugin: Plugin = {
     id: 'hDivisionColor',
     beforeDraw: (chart, _, options) => {
         const { ctx } = chart
@@ -61,7 +61,7 @@ export const hDivisionColor: Plugin = {
     }
 }
 
-export const checkerBackground: Plugin = {
+export const checkerBackgroundPlugin: Plugin = {
     id: 'checkerBackground',
     beforeDraw: (chart, _ , options) => {
         const { ctx } = chart

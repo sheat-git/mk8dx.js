@@ -1,16 +1,17 @@
 import { ChartConfiguration } from 'npm:chart.js'
 import { LoungeChartError } from './error.ts'
-import { checkerBackground, hDivisionColor } from './plugins.ts'
+import { checkerBackgroundPlugin, hDivisionColorPlugin } from './plugins.ts'
 
-export type DeltaOptions = {
+export type LoungeChartDeltaOptions = {
     season: number
     data: {
         newMmr: number
         mmrDelta: number
     }[]
+    setBackground?: boolean
 }
 
-export const createDeltaConfig = (options: DeltaOptions): ChartConfiguration => {
+export const createLoungeChartDeltaConfig = (options: LoungeChartDeltaOptions): ChartConfiguration => {
     if (options.data.length === 0) {
         throw LoungeChartError.noData()
     }
@@ -63,8 +64,12 @@ export const createDeltaConfig = (options: DeltaOptions): ChartConfiguration => 
             }
         },
         plugins: [
-            checkerBackground,
-            hDivisionColor
+            ...(
+                options.setBackground
+                    ? [checkerBackgroundPlugin]
+                    : []
+            ),
+            hDivisionColorPlugin
         ]
     }
 }

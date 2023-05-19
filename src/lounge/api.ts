@@ -1,9 +1,9 @@
 import * as util from './util.ts'
-import { LoungeApiError } from './error.ts'
+import { ApiError } from './error.ts'
 import {
     Bonus,
     Leaderboard,
-    LoungeApiErrorData,
+    ApiErrorData,
     Penalty,
     Player,
     TableDetails
@@ -33,7 +33,7 @@ export const get = async <Data>(path: string, params: Params): Promise<Data> => 
     const res = await fetch(`${config.baseUrl}/${path}?${convertToQuery(params)}`)
     const data = await res.json()
     if (!res.ok) {
-        throw new LoungeApiError(data as LoungeApiErrorData)
+        throw new ApiError(data as ApiErrorData)
     }
     return data as Data
 }

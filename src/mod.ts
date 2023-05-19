@@ -1,3 +1,3 @@
 export * from './data/mod.ts'
-export * as lounge from './lounge/mod.ts'
-export * as util from './util/mod.ts'
+export * as Lounge from './lounge/mod.ts'
+export * from './util/mod.ts'

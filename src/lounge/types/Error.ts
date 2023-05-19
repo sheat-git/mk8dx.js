@@ -1,4 +1,4 @@
-export type LoungeApiErrorData = {
+export type ApiErrorData = {
     type: string
     title: string
     status: number

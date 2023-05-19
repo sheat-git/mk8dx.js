@@ -1,5 +1,5 @@
 export * as types from './types/mod.ts'
 export * from './api.ts'
 export * from './error.ts'
-export * as util from './util.ts'
-export * as chart from './chart/mod.ts'
+export * from './util.ts'
+export * from './chart/mod.ts'

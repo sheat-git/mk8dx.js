@@ -1,12 +1,12 @@
-import { LoungeApiErrorData } from './types/Error.ts'
+import { ApiErrorData } from './types/Error.ts'
 
-export class LoungeApiError extends Error {
+export class ApiError extends Error {
     readonly type: string
     readonly title: string
     readonly status: number
     readonly traceId: string
 
-    constructor(data: LoungeApiErrorData) {
+    constructor(data: ApiErrorData) {
         super(data.title)
         this.type = data.type
         this.title = data.title

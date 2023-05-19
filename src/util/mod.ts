@@ -1,2 +1,2 @@
-export * as text from './text.ts'
-export * as track from './track.ts'
+export * from './text.ts'
+export * from './track.ts'
