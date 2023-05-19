@@ -4,18 +4,18 @@ This library has mk8dx's track data and lounge api wrapper.
 ## Track Data
 
 ```TypeScript
-import { search } from 'mk8dx/util/track'
+import { searchTrack } from 'mk8dx'
 
-console.log(search('tokyo').abbr)
+console.log(searchTrack('tokyo').abbr)
 // 'bTB'
 ```
 
 ## Lounge API Wrapper
 
 ```TypeScript
-import { getPlayer } from 'mk8dx/lounge'
+import { Lounge } from 'mk8dx'
 
-getPlayer({ name: 'sheat' })
+Lounge.getPlayer({ name: 'sheat' })
     .then(player => {
         console.log(player.switchFc)
         // '6986-4603-1885'
@@ -28,14 +28,13 @@ getPlayer({ name: 'sheat' })
 import { Chart } from 'chart.js'
 import { createCanvas } from 'canvas'
 import * as fs from 'fs'
-import { getPlayerDetails } from 'mk8dx/lounge'
-import { createStatsConfig, createStatsData } from 'mk8dx/lounge/chart'
+import { Lounge } from 'mk8dx'
 
-const playerDetails = await getPlayerDetails({ name: 'kusaan', season: 7 })
+const playerDetails = await Lounge.getPlayerDetails({ name: 'kusaan', season: 7 })
 const canvas = createCanvas(1280, 720)
-new Chart(canvas.getContext('2d'), createStatsConfig({
+new Chart(canvas.getContext('2d'), Lounge.createStatsChartConfig({
     season: playerDetails.season,
-    data: createStatsData(playerDetails.mmrChanges)
+    data: Lounge.createStatsChartData(playerDetails.mmrChanges)
 }))
 fs.writeFile('stats.png', canvas.toBuffer('image/png'))
 ```
