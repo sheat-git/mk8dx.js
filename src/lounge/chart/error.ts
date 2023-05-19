@@ -1,21 +1,21 @@
-enum LoungeChartErrorType {
+enum ChartErrorType {
     NoData
 }
 
-export class LoungeChartError extends Error {
-    readonly type: LoungeChartErrorType
+export class ChartError extends Error {
+    readonly type: ChartErrorType
 
     private constructor(options: {
-        type: LoungeChartErrorType
+        type: ChartErrorType
         message: string
     }) {
         super(options.message)
         this.type = options.type
     }
 
-    static noData(): LoungeChartError {
-        return new LoungeChartError({
-            type: LoungeChartErrorType.NoData,
+    static noData(): ChartError {
+        return new ChartError({
+            type: ChartErrorType.NoData,
             message: 'No data.'
         })
     }
