@@ -11,7 +11,7 @@ Chart.defaults.font.size = 24
 Chart.defaults.layout.padding = 20
 
 Deno.test('stats', async () => {
-    const details = await getPlayerDetails({ name: 'sheat' })
+    const details = await getPlayerDetails({ name: 'sheat', season: 8 })
     const canvas = createCanvas(1280, 720)
     new Chart(canvas.getContext('2d'), createStatsChartConfig({
         data: createStatsChartData(details.mmrChanges.reverse()),
@@ -21,7 +21,7 @@ Deno.test('stats', async () => {
 })
 
 Deno.test('delta', async () => {
-    const details = await getPlayerDetails({ name: 'sheat' })
+    const details = await getPlayerDetails({ name: 'sheat', season: 8 })
     const tableDeleteIds = new Set(details.mmrChanges.filter(mmrChange => mmrChange.reason === 'TableDelete').map(mmrChange => mmrChange.changeId!))
     const canvas = createCanvas(1280, 720)
     new Chart(canvas.getContext('2d'), createDeltaChartConfig({
