@@ -82,249 +82,206 @@ export class Season {
         return this.ranks[this.ranks.length - 1].division
     }
 
-    static get(season: number): Season {
-        if (Object.hasOwn(Season.All, season)) {
-            return Season.All[season]
-        } else {
-            return Object.values(Season.All)[0]
+    static get(season?: number): Season {
+        switch (season) {
+        case 9:
+        case 8:
+            return Season.Now
+        case 7:
+        case 6:
+            return new Season({
+                ranks: [
+                    {
+                        division: DivisionForChart.Grandmaster,
+                        minMmr: 15000
+                    },
+                    {
+                        division: DivisionForChart.Master,
+                        minMmr: 14000
+                    },
+                    {
+                        division: DivisionForChart.Diamond,
+                        borderMmr: 13000,
+                        minMmr: 12000
+                    },
+                    {
+                        division: DivisionForChart.Sapphire,
+                        borderMmr: 11000,
+                        minMmr: 10000
+                    },
+                    {
+                        division: DivisionForChart.Platinum,
+                        borderMmr: 9000,
+                        minMmr: 8000
+                    },
+                    {
+                        division: DivisionForChart.Gold,
+                        borderMmr: 7000,
+                        minMmr: 6000
+                    },
+                    {
+                        division: DivisionForChart.Silver,
+                        borderMmr: 5000,
+                        minMmr: 4000
+                    },
+                    {
+                        division: DivisionForChart.Bronze,
+                        borderMmr: 3000,
+                        minMmr: 2000
+                    },
+                    {
+                        division: DivisionForChart.Iron,
+                        borderMmr: 1000,
+                        minMmr: 0
+                    }
+                ]
+            })
+        case 5:
+            return new Season({
+                ranks: [
+                    {
+                        division: DivisionForChart.Grandmaster,
+                        minMmr: 14000
+                    },
+                    {
+                        division: DivisionForChart.Master,
+                        minMmr: 13000
+                    },
+                    {
+                        division: DivisionForChart.Diamond,
+                        borderMmr: 12000,
+                        minMmr: 11000
+                    },
+                    {
+                        division: DivisionForChart.Sapphire,
+                        minMmr: 10000
+                    },
+                    {
+                        division: DivisionForChart.Platinum,
+                        borderMmr: 9000,
+                        minMmr: 8000
+                    },
+                    {
+                        division: DivisionForChart.Gold,
+                        borderMmr: 7000,
+                        minMmr: 6000
+                    },
+                    {
+                        division: DivisionForChart.Silver,
+                        borderMmr: 5000,
+                        minMmr: 4000
+                    },
+                    {
+                        division: DivisionForChart.Bronze,
+                        borderMmr: 3000,
+                        minMmr: 2000
+                    },
+                    {
+                        division: DivisionForChart.Iron,
+                        borderMmr: 1000,
+                        minMmr: 0
+                    }
+                ]
+            })
+        case 4:
+            return new Season({
+                ranks: [
+                    {
+                        division: DivisionForChart.Grandmaster,
+                        minMmr: 14500
+                    },
+                    {
+                        division: DivisionForChart.Master,
+                        minMmr: 13000
+                    },
+                    {
+                        division: DivisionForChart.Diamond,
+                        minMmr: 11500
+                    },
+                    {
+                        division: DivisionForChart.Sapphire,
+                        minMmr: 10000
+                    },
+                    {
+                        division: DivisionForChart.Platinum,
+                        minMmr: 8500
+                    },
+                    {
+                        division: DivisionForChart.Gold,
+                        minMmr: 7000
+                    },
+                    {
+                        division: DivisionForChart.Silver,
+                        minMmr: 5500
+                    },
+                    {
+                        division: DivisionForChart.Bronze,
+                        minMmr: 4000
+                    },
+                    {
+                        division: DivisionForChart.Iron,
+                        borderMmr: 2000,
+                        minMmr: 0
+                    }
+                ]
+            })
+        default:
+            return Season.Now
         }
     }
 
-    static readonly All = Object.fromEntries(Object.entries({
-        8: {
-            ranks: [
-                {
-                    division: DivisionForChart.Grandmaster,
-                    minMmr: 17000
-                },
-                {
-                    division: DivisionForChart.Master,
-                    minMmr: 16000
-                },
-                {
-                    division: DivisionForChart.Diamond,
-                    borderMmr: 15000,
-                    minMmr: 14000
-                },
-                {
-                    division: DivisionForChart.Ruby,
-                    borderMmr: 13000,
-                    minMmr: 12000
-                },
-                {
-                    division: DivisionForChart.Sapphire,
-                    borderMmr: 11000,
-                    minMmr: 10000
-                },
-                {
-                    division: DivisionForChart.Platinum,
-                    borderMmr: 9000,
-                    minMmr: 8000
-                },
-                {
-                    division: DivisionForChart.Gold,
-                    borderMmr: 7000,
-                    minMmr: 6000
-                },
-                {
-                    division: DivisionForChart.Silver,
-                    borderMmr: 5000,
-                    minMmr: 4000
-                },
-                {
-                    division: DivisionForChart.Bronze,
-                    borderMmr: 3000,
-                    minMmr: 2000
-                },
-                {
-                    division: DivisionForChart.Iron,
-                    borderMmr: 1000,
-                    minMmr: 0
-                }
-            ]
-        },
-        7: {
-            ranks: [
-                {
-                    division: DivisionForChart.Grandmaster,
-                    minMmr: 15000
-                },
-                {
-                    division: DivisionForChart.Master,
-                    minMmr: 14000
-                },
-                {
-                    division: DivisionForChart.Diamond,
-                    borderMmr: 13000,
-                    minMmr: 12000
-                },
-                {
-                    division: DivisionForChart.Sapphire,
-                    borderMmr: 11000,
-                    minMmr: 10000
-                },
-                {
-                    division: DivisionForChart.Platinum,
-                    borderMmr: 9000,
-                    minMmr: 8000
-                },
-                {
-                    division: DivisionForChart.Gold,
-                    borderMmr: 7000,
-                    minMmr: 6000
-                },
-                {
-                    division: DivisionForChart.Silver,
-                    borderMmr: 5000,
-                    minMmr: 4000
-                },
-                {
-                    division: DivisionForChart.Bronze,
-                    borderMmr: 3000,
-                    minMmr: 2000
-                },
-                {
-                    division: DivisionForChart.Iron,
-                    borderMmr: 1000,
-                    minMmr: 0
-                }
-            ]
-        },
-        6: {
-            ranks: [
-                {
-                    division: DivisionForChart.Grandmaster,
-                    minMmr: 15000
-                },
-                {
-                    division: DivisionForChart.Master,
-                    minMmr: 14000
-                },
-                {
-                    division: DivisionForChart.Diamond,
-                    borderMmr: 13000,
-                    minMmr: 12000
-                },
-                {
-                    division: DivisionForChart.Sapphire,
-                    borderMmr: 11000,
-                    minMmr: 10000
-                },
-                {
-                    division: DivisionForChart.Platinum,
-                    borderMmr: 9000,
-                    minMmr: 8000
-                },
-                {
-                    division: DivisionForChart.Gold,
-                    borderMmr: 7000,
-                    minMmr: 6000
-                },
-                {
-                    division: DivisionForChart.Silver,
-                    borderMmr: 5000,
-                    minMmr: 4000
-                },
-                {
-                    division: DivisionForChart.Bronze,
-                    borderMmr: 3000,
-                    minMmr: 2000
-                },
-                {
-                    division: DivisionForChart.Iron,
-                    borderMmr: 1000,
-                    minMmr: 0
-                }
-            ]
-        },
-        5: {
-            ranks: [
-                {
-                    division: DivisionForChart.Grandmaster,
-                    minMmr: 14000
-                },
-                {
-                    division: DivisionForChart.Master,
-                    minMmr: 13000
-                },
-                {
-                    division: DivisionForChart.Diamond,
-                    borderMmr: 12000,
-                    minMmr: 11000
-                },
-                {
-                    division: DivisionForChart.Sapphire,
-                    minMmr: 10000
-                },
-                {
-                    division: DivisionForChart.Platinum,
-                    borderMmr: 9000,
-                    minMmr: 8000
-                },
-                {
-                    division: DivisionForChart.Gold,
-                    borderMmr: 7000,
-                    minMmr: 6000
-                },
-                {
-                    division: DivisionForChart.Silver,
-                    borderMmr: 5000,
-                    minMmr: 4000
-                },
-                {
-                    division: DivisionForChart.Bronze,
-                    borderMmr: 3000,
-                    minMmr: 2000
-                },
-                {
-                    division: DivisionForChart.Iron,
-                    borderMmr: 1000,
-                    minMmr: 0
-                }
-            ]
-        },
-        4: {
-            ranks: [
-                {
-                    division: DivisionForChart.Grandmaster,
-                    minMmr: 14500
-                },
-                {
-                    division: DivisionForChart.Master,
-                    minMmr: 13000
-                },
-                {
-                    division: DivisionForChart.Diamond,
-                    minMmr: 11500
-                },
-                {
-                    division: DivisionForChart.Sapphire,
-                    minMmr: 10000
-                },
-                {
-                    division: DivisionForChart.Platinum,
-                    minMmr: 8500
-                },
-                {
-                    division: DivisionForChart.Gold,
-                    minMmr: 7000
-                },
-                {
-                    division: DivisionForChart.Silver,
-                    minMmr: 5500
-                },
-                {
-                    division: DivisionForChart.Bronze,
-                    minMmr: 4000
-                },
-                {
-                    division: DivisionForChart.Iron,
-                    borderMmr: 2000,
-                    minMmr: 0
-                }
-            ]
-        }
-    }).map(([season, options]) => [season, new Season(options)]))
+    static readonly Now = new Season({
+        ranks: [
+            {
+                division: DivisionForChart.Grandmaster,
+                minMmr: 17000
+            },
+            {
+                division: DivisionForChart.Master,
+                minMmr: 16000
+            },
+            {
+                division: DivisionForChart.Diamond,
+                borderMmr: 15000,
+                minMmr: 14000
+            },
+            {
+                division: DivisionForChart.Ruby,
+                borderMmr: 13000,
+                minMmr: 12000
+            },
+            {
+                division: DivisionForChart.Sapphire,
+                borderMmr: 11000,
+                minMmr: 10000
+            },
+            {
+                division: DivisionForChart.Platinum,
+                borderMmr: 9000,
+                minMmr: 8000
+            },
+            {
+                division: DivisionForChart.Gold,
+                borderMmr: 7000,
+                minMmr: 6000
+            },
+            {
+                division: DivisionForChart.Silver,
+                borderMmr: 5000,
+                minMmr: 4000
+            },
+            {
+                division: DivisionForChart.Bronze,
+                borderMmr: 3000,
+                minMmr: 2000
+            },
+            {
+                division: DivisionForChart.Iron,
+                borderMmr: 1000,
+                minMmr: 0
+            }
+        ]
+    })
 }
 
-export const nowSeason = Object.keys(Season.All).map(Number).sort((a, b) => b - a)[0]
+export const nowSeason = 9
