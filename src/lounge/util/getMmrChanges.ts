@@ -50,10 +50,16 @@ export const expectMmrDeltas = (options: {
         return Math.round(delta)
     }
 
-    return [...Array(numTeams)].map((_, i) => ({
-        min: getMmrDeltaWithMmrs(options.mmr, ascendingMmrs.slice(0, i), ascendingMmrs.slice(i)),
-        max: getMmrDeltaWithMmrs(options.mmr, deascendingMmrs.slice(0, i), deascendingMmrs.slice(i))
-    }))
+    return [...Array(numTeams)].map((_, i) => {
+        const mmrDeltas = [
+            getMmrDeltaWithMmrs(options.mmr, ascendingMmrs.slice(0, i), ascendingMmrs.slice(i)),
+            getMmrDeltaWithMmrs(options.mmr, deascendingMmrs.slice(0, i), deascendingMmrs.slice(i))
+        ].sort()
+        return {
+            min: mmrDeltas[0],
+            max: mmrDeltas[1]
+        }
+    })
 }
 
 export const getMmrDeltas = (teams: {
