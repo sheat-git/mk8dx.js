@@ -47,7 +47,7 @@ export const expectMmrDeltas = (options: {
         for (const bottom of bottoms) {
             delta += getMmrDelta(mmr, bottom)
         }
-        return delta
+        return Math.round(delta)
     }
 
     return [...Array(numTeams)].map((_, i) => ({
