@@ -23,6 +23,39 @@ const offsets: Const = {
     2: 1344.151
 }
 
+
+
+export const expectMmrDeltas = (options: {
+    otherMmrs: number[]
+    mmr: number
+}) => {
+    const ascendingMmrs = options.otherMmrs.sort((a, b) => a - b)
+    const deascendingMmrs = [...ascendingMmrs].reverse()
+    const numTeams = options.otherMmrs.length + 1
+
+    const cap = caps[numTeams]
+    const scalingFactor = scalingFactors[numTeams]
+    const offset = offsets[numTeams]
+
+    const getMmrDelta = (winnerMmr: number, loserMmr: number) =>
+        cap / (1 + Math.pow(11, (offset + winnerMmr - loserMmr) / scalingFactor))
+    const getMmrDeltaWithMmrs = (mmr: number, tops: number[], bottoms: number[]) => {
+        let delta = 0
+        for (const top of tops) {
+            delta -= getMmrDelta(top, mmr)
+        }
+        for (const bottom of bottoms) {
+            delta += getMmrDelta(mmr, bottom)
+        }
+        return delta
+    }
+
+    return [...Array(numTeams)].map((_, i) => ({
+        min: getMmrDeltaWithMmrs(options.mmr, ascendingMmrs.slice(0, i), ascendingMmrs.slice(i)),
+        max: getMmrDeltaWithMmrs(options.mmr, deascendingMmrs.slice(0, i), deascendingMmrs.slice(i))
+    }))
+}
+
 export const getMmrDeltas = (teams: {
     rank: number
     averageMmr: number
