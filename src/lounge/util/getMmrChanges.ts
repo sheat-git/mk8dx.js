@@ -54,7 +54,7 @@ export const expectMmrDeltas = (options: {
         const mmrDeltas = [
             getMmrDeltaWithMmrs(options.mmr, ascendingMmrs.slice(0, i), ascendingMmrs.slice(i)),
             getMmrDeltaWithMmrs(options.mmr, deascendingMmrs.slice(0, i), deascendingMmrs.slice(i))
-        ].sort()
+        ].sort((a, b) => a - b)
         return {
             min: mmrDeltas[0],
             max: mmrDeltas[1]
