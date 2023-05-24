@@ -1,1 +1,1 @@
-export * from './expectTableDetails.ts'
+export * from './getMmrChanges.ts'
