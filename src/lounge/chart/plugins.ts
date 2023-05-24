@@ -65,8 +65,8 @@ export const checkerBackgroundPlugin: Plugin = {
     id: 'checkerBackground',
     beforeDraw: (chart, _ , options) => {
         const { ctx } = chart
-        const width = (options.width ?? 21) as number
-        const height = (options.height ?? 21) as number
+        const width = (options.width ?? 32) as number
+        const height = (options.height ?? 32) as number
         const bgCanvas = createCanvas(width * 2, height * 2)
         const bgCtx = bgCanvas.getContext('2d')
         for (let i = 0; i < 2; i++) {
