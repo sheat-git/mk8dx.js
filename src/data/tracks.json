@@ -689,5 +689,76 @@
     "abbrJa": "シンガポール",
     "nicks": ["bssy", "ssy", "bsis", "sis", "singapore", "ｼﾝｶﾞﾎﾟｰﾙｽﾌﾟﾗｯｼｭ", "ｼﾝｶﾞﾎﾟｰﾙ"],
     "consoleId": 7
+  },
+  {
+    "id": 80,
+    "name": "Athens Dash",
+    "nameJa": "アテネポリス",
+    "abbr": "bADa",
+    "abbrJa": "アテネ",
+    "nicks": ["bada", "ada", "athens", "ｱﾃﾈﾎﾟﾘｽ", "ｱﾃﾈ"],
+    "consoleId": 7
+  },
+  {
+    "id": 81,
+    "name": "Daisy Cruiser",
+    "nameJa": "デイジークルーザー",
+    "abbr": "bDC",
+    "abbrJa": "デイクル",
+    "nicks": ["bdc", "dc", "ﾃﾞｲｼﾞｰｸﾙｰｻﾞｰ", "ﾃﾞｲｸﾙ"],
+    "consoleId": 3
+  },
+  {
+    "id": 82,
+    "name": "Moonview Highway",
+    "nameJa": "ムーンリッジ&ハイウェイ",
+    "abbr": "bMH",
+    "abbrJa": "ムーンリッジ",
+    "nicks": ["bmh", "mh", "ﾑｰﾝﾘｯｼﾞ", "ﾑｰﾝﾊｲ", "ﾑﾝﾊｲ"],
+    "consoleId": 5
+  },
+  {
+    "id": 83,
+    "name": "Squeaky Clean Sprint",
+    "nameJa": "シャボンロード",
+    "abbr": "bSCS",
+    "abbrJa": "シャボン",
+    "nicks": ["bscs", "scs", "ｼｬﾎﾞﾝﾛｰﾄﾞ", "ｼｬﾎﾞﾝ", "ｼｬﾎﾞﾛ"]
+  },
+  {
+    "id": 84,
+    "name": "Los Angeles Laps",
+    "nameJa": "ロサンゼルスコースト",
+    "abbr": "bLAL",
+    "abbrJa": "ロサンゼルス",
+    "nicks": ["blal", "lal", "losangeles", "los", "ﾛｻﾝｾﾞﾙｽｺｰｽﾄ", "ﾛｻﾝｾﾞﾙｽ", "ﾛｽ"],
+    "consoleId": 7
+  },
+  {
+    "id": 85,
+    "name": "Sunset Wilds",
+    "nameJa": "サンセットこうや",
+    "abbr": "bSW",
+    "abbrJa": "サンセット",
+    "nicks": ["bsw", "sw", "ｻﾝｾｯﾄｺｳﾔ", "ｻﾝｾｯﾄ", "ｺｳﾔ"],
+    "consoleId": 2
+  },
+  {
+    "id": 86,
+    "name": "Koopa Cape",
+    "nameJa": "ノコノコみさき",
+    "abbr": "bKC",
+    "abbrJa": "ノコみ",
+    "nicks": ["bkc", "kc", "ﾉｺﾉｺﾐｻｷ", "ﾉｺﾉｺ", "ﾉｺﾐ"],
+    "consoleId": 5
+  },
+  {
+    "id": 87,
+    "name": "Vancouver Velocity",
+    "nameJa": "バンクーバーバレー",
+    "abbr": "bVV",
+    "abbrJa": "バンクーバー",
+    "nicks": ["bvv", "vv", "vancouver", "ﾊﾞﾝｸｰﾊﾞｰﾊﾞﾚｰ", "ﾊﾞﾝｸｰﾊﾞｰ", "ﾊﾞﾊﾞﾊﾞ"],
+    "consoleId": 7
   }
 ]
