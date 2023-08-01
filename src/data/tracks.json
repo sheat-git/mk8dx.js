@@ -694,9 +694,9 @@
     "id": 80,
     "name": "Athens Dash",
     "nameJa": "アテネポリス",
-    "abbr": "bADa",
+    "abbr": "bAtD",
     "abbrJa": "アテネ",
-    "nicks": ["bada", "ada", "athens", "ｱﾃﾈﾎﾟﾘｽ", "ｱﾃﾈ"],
+    "nicks": ["batd", "atd", "bada", "ada", "athens", "ｱﾃﾈﾎﾟﾘｽ", "ｱﾃﾈ"],
     "consoleId": 7
   },
   {
