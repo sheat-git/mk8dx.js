@@ -36,5 +36,5 @@ export const normalize = (text: string): string => {
     return [...text].reduce((acc, char) => {
         const normalized = normalizer.get(char)
         return normalized === undefined ? acc + char : acc + normalized
-    })
+    }, '')
 }
