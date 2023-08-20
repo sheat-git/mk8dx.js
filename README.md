@@ -26,8 +26,8 @@ Lounge.getPlayer({ name: 'sheat' })
 
 ```TypeScript
 import { Chart } from 'chart.js'
-import { createCanvas } from 'canvas'
-import * as fs from 'fs'
+import { createCanvas } from '@napi-rs/canvas'
+import fs from 'fs'
 import { Lounge } from 'mk8dx'
 
 const playerDetails = await Lounge.getPlayerDetails({ name: 'kusaan', season: 7 })
