@@ -1,5 +1,5 @@
 import { Chart, registerables } from 'npm:chart.js'
-import { createCanvas } from 'npm:canvas'
+import { createCanvas } from 'npm:@napi-rs/canvas'
 import { getPlayerDetails } from '../api.ts'
 import { createStatsChartConfig, createStatsChartData } from './stats.ts'
 import { createDeltaChartConfig } from './delta.ts'
@@ -17,7 +17,7 @@ Deno.test('stats', async () => {
         data: createStatsChartData(details.mmrChanges.reverse()),
         season: details.season
     }))
-    // await Deno.writeFile('stats.png', canvas.toBuffer('image/png'))
+    await Deno.writeFile('stats.png', canvas.toBuffer('image/png'))
 })
 
 Deno.test('delta', async () => {
@@ -28,5 +28,5 @@ Deno.test('delta', async () => {
         data: details.mmrChanges.reverse().filter(mmrChange => mmrChange.numTeams === 6 && !tableDeleteIds.has(mmrChange.changeId!)),
         season: details.season
     }))
-    // await Deno.writeFile('delta.png', canvas.toBuffer('image/png'))
+    await Deno.writeFile('delta.png', canvas.toBuffer('image/png'))
 })

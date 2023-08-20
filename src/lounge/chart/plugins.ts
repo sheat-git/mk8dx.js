@@ -1,5 +1,5 @@
 import { Plugin } from 'npm:chart.js'
-import { createCanvas } from 'npm:canvas'
+import { createCanvas } from 'npm:@napi-rs/canvas'
 import { Season } from './types.ts'
 
 export const vDivisionColorPlugin: Plugin = {
@@ -63,7 +63,7 @@ export const hDivisionColorPlugin: Plugin = {
 
 export const checkerBackgroundPlugin: Plugin = {
     id: 'checkerBackground',
-    beforeDraw: (chart, _ , options) => {
+    beforeDraw: (chart, _, options) => {
         const { ctx } = chart
         const width = (options.width ?? 32) as number
         const height = (options.height ?? 32) as number

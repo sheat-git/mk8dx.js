@@ -18,7 +18,7 @@ export const createDeltaChartConfig = (options: DeltaChartOptions): ChartConfigu
     return {
         type: 'line',
         data: {
-            labels: [...Array(options.data.length + 1)].map((_, i) => i),
+            labels: [...Array(options.data.length + 1)].map((_, i) => i.toString()),
             datasets: [{
                 xAxisID: 'x',
                 yAxisID: 'y',

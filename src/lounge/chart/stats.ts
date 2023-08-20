@@ -57,7 +57,7 @@ export const createStatsChartConfig = (options: StatsChartOptions): ChartConfigu
                         color: 'white',
                         callback: value => {
                             if (Number.isInteger(value)) {
-                                return value
+                                return value.toString()
                             } else {
                                 return ''
                             }
@@ -65,6 +65,7 @@ export const createStatsChartConfig = (options: StatsChartOptions): ChartConfigu
                     }
                 },
                 mmr: {
+                    axis: 'y',
                     ticks: {
                         color: 'white'
                     }
